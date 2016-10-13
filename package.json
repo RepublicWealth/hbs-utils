@@ -8,24 +8,25 @@
   "author": "Dan Polivy <dan@cellartracker.com>",
   "contributors": [],
   "keywords": [
-  	"hbs",
-  	"handlebars",
-  	"partials"
+    "hbs",
+    "handlebars",
+    "partials"
   ],
   "main": "lib/hbs-utils.js",
   "directories": {
-  	"lib": "./lib"
+    "lib": "./lib"
   },
   "dependencies": {
+    "forEachAsync": "^3.0.0",
     "node-watch": "0.3.4",
     "walk": "2.3.1"
   },
   "devDependencies": {},
   "engines": {
-  	"node": ">= 0.10.0"
+    "node": ">= 0.10.0"
   },
   "repository": {
-  	"type": "git",
-  	"url": "https://github.com/dpolivy/hbs-utils"
+    "type": "git",
+    "url": "https://github.com/dpolivy/hbs-utils"
   }
 }
